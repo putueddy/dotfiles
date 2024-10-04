@@ -24,6 +24,7 @@ exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec_always feh --bg-scale ~/.config/backgrounds/nice-fuji-background.png
 exec_always --no-startup-id xrandr --output eDP-1 --brightness 0.55
+exec_always --no-startup-id ~/.config/conky/Shaula/start.sh
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart

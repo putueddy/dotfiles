@@ -1,0 +1,16 @@
+[Conky]
+Description=Conky
+below=true
+belowrule=2
+clientmachine=localhost
+clientmachinematch=1
+noborder=true
+noborderrule=2
+title=conky (lxqt)
+titlematch=1
+type=2
+typerule=2
+types=4
+wmclass=conky conky
+wmclasscomplete=true
+wmclassmatch=1

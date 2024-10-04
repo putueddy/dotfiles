@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=conky shaula mod
+GenericName=conky shaula mod
+Comment=
+Exec=$HOME/.config/conky/Shaula/start.sh
+Type=Application
+Icon=application-x-desktop
+Terminal=false

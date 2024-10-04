@@ -17,6 +17,8 @@ config.macos_window_background_blur = 10
 config.default_cursor_style = "BlinkingBlock"
 config.window_close_confirmation = "NeverPrompt"
 
+config.warn_about_missing_glyphs = false
+
 config.colors = {
 	foreground = "#CBE0F0",
 	background = "#011423",
