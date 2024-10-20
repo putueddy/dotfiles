@@ -150,6 +150,7 @@ function conky_ring_stats()
 			setup_rings(cr, settings_table[i])
 		end
 	end
-	cairo_surface_destroy(cs)
 	cairo_destroy(cr)
+	cairo_surface_destroy(cs)
+	cr = nil
 end
