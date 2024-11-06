@@ -4,6 +4,8 @@ local wezterm = require("wezterm")
 -- This will hold the configuration
 local config = wezterm.config_builder()
 
+config.enable_wayland = false
+
 config.default_prog = { "/usr/bin/fish", "-l" }
 config.font = wezterm.font("BerkeleyMono Nerd Font")
 config.font_size = 14.2
